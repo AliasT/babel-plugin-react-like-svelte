@@ -1,0 +1,16 @@
+{
+  "name": "babel-plugin-react-like-svelte",
+  "main": "./index.js",
+  "devDependencies": {
+    "@babel/cli": "^7.15.4",
+    "@babel/core": "^7.15.5",
+    "@babel/plugin-transform-react-jsx": "^7.14.9",
+    "babel": "^6.23.0"
+  },
+  "peerDependencies": {
+    "@babel/types": "^7.15.6"
+  },
+  "scripts": {
+    "build": "babel test.js"
+  }
+}
